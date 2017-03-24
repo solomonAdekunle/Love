@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Casino">
+
+<test name="AboutUsTest">
+    <classes>
+        <class name="Casino.AboutUsTest" ></class>  
+    </classes>
+</test>
+
+<test name="GamesLunchTest">
+    <classes>
+        <class name="Casino.GamesLunchTest" ></class>  
+    </classes>
+</test>
+<test name="GettingStartedTes">
+    <classes>
+        <class name="Casino.GettingStartedTest" ></class>  
+    </classes>
+</test>
+<test name="LiveTest">
+    <classes>
+        <class name="Casino.LiveTest" ></class>  
+    </classes>
+</test>
+<test name="LoginErrorTest">
+    <classes>
+        <class name="Casino.LoginErrorTest" ></class>  
+    </classes>
+</test>
+<test name="PromotionTest">
+    <classes>
+        <class name="Casino.PromotionTest" ></class>  
+    </classes>
+</test>
+<test name="SearchGamesTest">
+    <classes>
+        <class name="Casino.SearchGamesTest" ></class>  
+    </classes>
+</test>
+<test name="VegasTest">
+    <classes>
+        <class name="Casino.VegasTest" ></class>  
+    </classes>
+    </test>
+<test name="PresentersTest">
+    <classes>
+        <class name="Casino.PresentersTest" ></class>  
+    </classes>
+    </test>
+<test name="GameInfoPageTest">
+    <classes>
+        <class name="Casino.GameInfoPageTest" ></class>  
+    </classes>
+</test>
+</suite>
+

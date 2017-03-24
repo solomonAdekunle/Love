@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cashier]">
+  <listeners>
+    <listener class-name="TestUtil.CustomListener"/>
+  </listeners>
+  <test name="DepositTest(failed)">
+    <classes>
+      <class name="Cashier.AccountSummaryTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.AccountSummaryTest -->
+      <class name="Cashier.DepositTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="DepositTest" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- Cashier.DepositTest -->
+      <class name="Cashier.AccountSummary2Test">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.AccountSummary2Test -->
+      <class name="Cashier.AccountSummary3Test">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.AccountSummary3Test -->
+      <class name="Cashier.Cashier_RegisterNewCard">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.Cashier_RegisterNewCard -->
+    </classes>
+  </test> <!-- DepositTest(failed) -->
+  <test name="AccountSummaryTest(failed)">
+    <classes>
+      <class name="Cashier.AccountSummaryTest">
+        <methods>
+          <include name="close"/>
+          <include name="AccountSummarytest" invocation-numbers="0"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.AccountSummaryTest -->
+      <class name="Cashier.DepositTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Cashier.DepositTest -->
+      <class name="Cashier.AccountSummary2Test">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.AccountSummary2Test -->
+      <class name="Cashier.AccountSummary3Test">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.AccountSummary3Test -->
+      <class name="Cashier.Cashier_RegisterNewCard">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Cashier.Cashier_RegisterNewCard -->
+    </classes>
+  </test> <!-- AccountSummaryTest(failed) -->
+</suite> <!-- Failed suite [Cashier] -->

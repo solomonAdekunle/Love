@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CORE_SUITE]">
+  <listeners>
+    <listener class-name="TestUtil.CustomListener"/>
+  </listeners>
+  <test name="ChangePasswordTest(failed)">
+    <classes>
+      <class name="CORE_SUITE.ForgottenDetailsTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- CORE_SUITE.ForgottenDetailsTest -->
+      <class name="CORE_SUITE.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- CORE_SUITE.HomePageTest -->
+      <class name="CORE_SUITE.ChangePasswordTest">
+        <methods>
+          <include name="ChangePasswordTest" invocation-numbers="9"/>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- CORE_SUITE.ChangePasswordTest -->
+      <class name="CORE_SUITE.LoginTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- CORE_SUITE.LoginTest -->
+      <class name="CORE_SUITE.RegistrationTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- CORE_SUITE.RegistrationTest -->
+    </classes>
+  </test> <!-- ChangePasswordTest(failed) -->
+  <test name="ForgottenDetails Test(failed)">
+    <classes>
+      <class name="CORE_SUITE.ForgottenDetailsTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="ForgottenDetailsTest" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- CORE_SUITE.ForgottenDetailsTest -->
+      <class name="CORE_SUITE.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- CORE_SUITE.HomePageTest -->
+      <class name="CORE_SUITE.ChangePasswordTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- CORE_SUITE.ChangePasswordTest -->
+      <class name="CORE_SUITE.LoginTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- CORE_SUITE.LoginTest -->
+      <class name="CORE_SUITE.RegistrationTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- CORE_SUITE.RegistrationTest -->
+    </classes>
+  </test> <!-- ForgottenDetails Test(failed) -->
+</suite> <!-- Failed suite [CORE_SUITE] -->

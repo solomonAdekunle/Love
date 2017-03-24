@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CORE_SUITE">
+
+<test name="Login Test">
+    <classes>
+        <class name="CORE_SUITE.LoginTest" ></class>  
+    </classes>
+</test>
+<test name="Registration Test">
+    <classes>
+        <class name="CORE_SUITE.RegistrationTest" ></class>  
+    </classes>
+</test>
+<test name="ChangePasswordTest">
+    <classes>
+        <class name="CORE_SUITE.ChangePasswordTest" ></class>  
+    </classes>
+</test>
+<test name="ForgottenDetails Test">
+    <classes>
+        <class name="CORE_SUITE.ForgottenDetailsTest" ></class>  
+    </classes>
+</test>
+<test name="HomePage Test">
+    <classes>
+        <class name="CORE_SUITE.HomePageTest" ></class>  
+    </classes>
+</test>
+</suite>
+

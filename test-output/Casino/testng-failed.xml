@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Casino]">
+  <listeners>
+    <listener class-name="TestUtil.CustomListener"/>
+  </listeners>
+  <test name="AboutUsTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+          <include name="AboutTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- AboutUsTest(failed) -->
+  <test name="GamesLunchTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="GettingStartedTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- GamesLunchTest(failed) -->
+  <test name="LiveTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="LiveTest" invocation-numbers="0"/>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="LiveFooterTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- LiveTest(failed) -->
+  <test name="PromotionTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="COMPETITIONTest" invocation-numbers="0"/>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- PromotionTest(failed) -->
+  <test name="SearchGamesTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="SearchGamesTest" invocation-numbers="0 1"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- SearchGamesTest(failed) -->
+  <test name="VegasTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="VegasTest" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="initLogs"/>
+          <include name="VegasGamesLunhTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- VegasTest(failed) -->
+  <test name="GameInfoPageTest(failed)">
+    <classes>
+      <class name="Casino.LoginErrorTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.LoginErrorTest -->
+      <class name="Casino.SearchGamesTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.SearchGamesTest -->
+      <class name="Casino.AboutUsTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.AboutUsTest -->
+      <class name="Casino.GameInfoPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+          <include name="GameInfoTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Casino.GameInfoPageTest -->
+      <class name="Casino.PromotionTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PromotionTest -->
+      <class name="Casino.GettingStartedTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.GettingStartedTest -->
+      <class name="Casino.VegasTest">
+        <methods>
+          <include name="close"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- Casino.VegasTest -->
+      <class name="Casino.GamesLunchTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.GamesLunchTest -->
+      <class name="Casino.LiveTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.LiveTest -->
+      <class name="Casino.PresentersTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Casino.PresentersTest -->
+    </classes>
+  </test> <!-- GameInfoPageTest(failed) -->
+</suite> <!-- Failed suite [Casino] -->

@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cashier">
+
+<test name="DepositTest">
+    <classes>
+        <class name="Cashier.DepositTest" ></class>  
+    </classes>
+</test>
+
+<test name="Cashier_RegisterNewCard">
+    <classes>
+        <class name="Cashier.Cashier_RegisterNewCard" ></class>  
+    </classes>
+</test>
+<test name="AccountSummaryTest">
+    <classes>
+        <class name="Cashier.AccountSummaryTest" ></class>  
+    </classes>
+</test>
+<test name="AccountSummary2Test">
+    <classes>
+        <class name="Cashier.AccountSummary2Test" ></class>  
+    </classes>
+</test>
+<test name="AccountSummary3Test">
+    <classes>
+        <class name="Cashier.AccountSummary3Test" ></class>  
+    </classes>
+</test>
+</suite>
+

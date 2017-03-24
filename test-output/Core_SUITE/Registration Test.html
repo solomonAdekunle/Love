@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Registration Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Registration Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 23 19:26:26 GMT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>371 seconds (371593 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=MNNH$1, contactNum=0203700700, address=8, silverthorne, Screenname=mmm12, Username=mmm12, Title=Miss, Expected_Result=FAILURE, confirmPassword=MNNH$2, lastname=MNHGF, Result=, Firstname=MJHGF-12, year=1980.0, Runmode=Y, city=London, promoCode=, day=3.0, county=l, month=OCT, Email=test@playtec.com, postcode=SW8 3HE}</td>
+<td></td>
+<td>27</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Chrome, Password=GGGGGGGGGGGGGGGGGGGG1, contactNum=0207000100, address=8//, Screenname=1.234543212E9, Username=NNNNNNNNNNNNNNNNNNNNN1, Title=Ms, Expected_Result=FAILURE, confirmPassword=GGGGGGGGGGGGGGGGGGGG1, lastname=AGGTR'S, Result=, Firstname=GHJUYT'S, year=1980.0, Runmode=Y, city=L, promoCode=, day=3.0, county=Greater LONDON, month=OCT, Email=test@playtec.com, postcode=SW8 3HE}</td>
+<td></td>
+<td>27</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=1.2345678E7, contactNum=0207001000, address=0.08, Screenname=GGGGGGGGGGGGGGGGGGGG1, Username=markge, Title=DR, Expected_Result=FAILURE, confirmPassword=1.2345678E7, lastname=HJUUT12, Result=, Firstname=AGRT BG, year=1980.0, Runmode=Y, city=london1, promoCode=Prom2345, day=3.0, county=Greatest of LONDON area of united kingdon europes, month=OCT, Email=test@playtec.com, postcode=SW8 3HE}</td>
+<td></td>
+<td>35</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Chrome, Password=ADSERTYG, contactNum=0207100600, address=8,silverthorne, Screenname=ASEDCFREEE, Username=1.2345678E7, Title=MR, Expected_Result=FAILURE, confirmPassword=ADSERTYG, lastname=ASEDDR, Result=, Firstname=, year=1980.0, Runmode=Y, city=Greatest of LONDON area of united kingdon europes, promoCode=BONUS200, day=3.0, county=Greatest of LONDON area of united kingdon europes, month=OCT, Email=test@playtec.com, postcode=}</td>
+<td></td>
+<td>40</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=lookjng£*^, contactNum=0207100601, address=, Screenname=makomi1lbugo, Username=, Title=MR, Expected_Result=FAILURE, confirmPassword=lookjng£*^, lastname=, Result=, Firstname=asderty, year=1980.0, Runmode=Y, city=london, promoCode=, day=3.0, county=London, month=OCT, Email=, postcode=}</td>
+<td></td>
+<td>27</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=££££££££££>, contactNum=++U13234803556000, address=80.0, Screenname=adsggtt444^$£, Username=Snetplay-TV, Title=Miss, Expected_Result=FAILURE, confirmPassword=££££££££££>, lastname=^^^^^"""**, Result=, Firstname=add*add, year=2018.0, Runmode=Y, city=London&&&, promoCode=, day=23.0, county=1234555.0, month=Jun, Email=temmtt, postcode=SW8 3HE}</td>
+<td></td>
+<td>23</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Chrome, Password=$$$$$%%1a, contactNum=, address=8.0, Screenname=makomi1lbugo, Username=123456£1, Title=DR, Expected_Result=FAILURE, confirmPassword=$$$$$%%1a, lastname=&$£agas, Result=, Firstname=adde$), year=2015.0, Runmode=Y, city=greater3LONDON, promoCode=, day=3.0, county=, month=, Email=testplaytech.com, postcode=}</td>
+<td></td>
+<td>23</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Chrome, Password=Manjuyt, contactNum=9191GGSS, address=80.0, Screenname={generator}, Username={generator}, Title=, Expected_Result=FAILURE, confirmPassword=Manjuyt, lastname=, Result=, Firstname=, year=1980.0, Runmode=Y, city=SDDDD , promoCode=, day=3.0, county=LONDON, month=OCT, Email=l@.com, postcode=SW8 %67}</td>
+<td></td>
+<td>21</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=Bola123$%^, contactNum=02071006020, address=80.0, Screenname=ScreenName1, Username=ScreenName1, Title=Mrs, Expected_Result=FAILURE, confirmPassword=, lastname=look, Result=, Firstname=nav, year=1980.0, Runmode=Y, city=London, promoCode=, day=3.0, county=London, month=OCT, Email=test@playtech.com, postcode=SW8 3HE}</td>
+<td></td>
+<td>36</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=Looking/>, contactNum=london01, address=, Screenname=yahoonnana, Username=Snetplaytv$%, Title=, Expected_Result=FAILURE, confirmPassword=Looking/>, lastname=, Result=, Firstname=lao@, year=2001.0, Runmode=Y, city=LONDON%#, promoCode=, day=3.0, county=Surrey-london, month=OCT, Email=£££test@playtech.com, postcode=SW8 3HE+8}</td>
+<td></td>
+<td>34</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Mozilla, Password=B123$%^, contactNum=02071006020, address=80.0, Screenname=yahoonnana, Username={generator}, Title=Mr, Expected_Result=FAILURE, confirmPassword=B123$%^, lastname=utio, Result=, Firstname=agaga, year=1980.0, Runmode=Y, city=London, promoCode=, day=3.0, county=London, month=OCT, Email=test@playtech.com, postcode=SW8 3HE}</td>
+<td></td>
+<td>28</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+<tr>
+<td title='CORE_SUITE.RegistrationTest.RegistrationTest()'><b>RegistrationTest</b><br>Test class: CORE_SUITE.RegistrationTest<br>Parameters: {Browser=Chrome, Password=Bola123$%^, contactNum=02071006020, address=80.0, Screenname={generator}, Username={generator}, Title=MR, Expected_Result=SUCCESS, confirmPassword=Bola123$%^, lastname=bolabo, Result=, Firstname=mark, year=1980.0, Runmode=Y, city=LONDON, promoCode=, day=3.0, county=LONDON, month=OCT, Email=test@playtech.com, postcode=SW8 3HE}</td>
+<td></td>
+<td>36</td>
+<td>CORE_SUITE.RegistrationTest@cb0ed20</td></tr>
+</table><p>
+</body>
+</html>
